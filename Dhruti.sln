@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dhruti", "Dhruti\Dhruti.csproj", "{BDAF4603-2584-484B-B3B8-A3D1D9A703E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{2047ABA7-54BE-47DA-B998-836E09C0B83C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestForDhruti", "UnitTestProject1\UnitTestForDhruti.csproj", "{2047ABA7-54BE-47DA-B998-836E09C0B83C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
