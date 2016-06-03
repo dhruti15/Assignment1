@@ -110,7 +110,11 @@ namespace Dhruti
 			{
 				damage = _hitDamage (); // damage is calculated in _hitDamage method and then stored in damage
 				Console.WriteLine ("Damage Amount: " + damage);
-			}
+            }
+            else
+            {
+                Console.WriteLine("oops! Missed you.");
+            }
 		}
         /**
          * <summary>
