@@ -47,11 +47,13 @@ namespace Dhruti
         * @method _generateAbilities
         * @return {void}
         */
-        private void _generateAbilities() // random abilities for strength, speed, health generated between 1-100
+        // random abilities for strength, speed, health generated between 1-100
+        private void _generateAbilities() 
 		{
-			Random rand = new Random (); 
+			Random rand = new Random ();
 
-			_strength = rand.Next (99) + 1; // Random number is generated between (0-99) therefore +1 is used to avoid 0 as 0 +1 = 1 and 99 +1 = 100
+            // Random number is generated between (0-99) therefore +1 is used to avoid 0 as 0 +1 = 1 and 99 +1 = 100
+            _strength = rand.Next (99) + 1; 
 			_health = rand.Next (99) + 1;
 			_speed = rand.Next (99) + 1;
 		}
@@ -65,7 +67,8 @@ namespace Dhruti
         private bool _hitAttempt()
 		{
 			Random rand = new Random ();
-			int hit = rand.Next (4); // (number generated between 0-4 i.e. 5 numbers(100/5=20) therefore 4 is used for 20% probability
+            // (number generated between 0-4 i.e. 5 numbers(100/5=20) therefore 4 is used for 20% probability
+            int hit = rand.Next (4); 
 			if (hit == 0) // checks for 20% probability to hit
 			{
 				return true; // hit
@@ -85,7 +88,8 @@ namespace Dhruti
 		{
 			int damage;
 			Random rand = new Random ();
-			damage = _strength * (rand.Next (5)+1); // damage calculated by multiplying strength with a number between 1-6
+            // damage calculated by multiplying strength with a number between 1-6
+            damage = _strength * (rand.Next (5)+1); 
 			return damage;
 		}
 
